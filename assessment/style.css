@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    padding: 5px;
+}
+.head{
+    color: red;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.first1{
+    margin-left: 15px;
+    margin-top: 17px;
+}
+.first2{
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.second1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.second2{
+    margin-left: 103px;
+    margin-top: 15px;
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.third1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.third2{
+    margin-left: 134px;
+    margin-top: 15px;
+}
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.fourth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.fourth2{
+    margin-left: 126px;
+    margin-top: 15px;
+}
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.fifth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.fifth2{
+    margin-left: 126px;
+    margin-top: 17px;
+}
+.fifth3{
+    margin-top: 15px;
+}
+.fifth4{
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.fifth5{
+    margin-top: 15px;
+}
+.sixth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.sixth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.sixth2{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+#datepicker{
+    width: 575px;
+}
+.seventh{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.seventh1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.seventh2{
+    margin-left: 122px;
+    margin-top: 15px;
+}
+.eighth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.eighth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.eighth2{
+    margin-left: 145px;
+    margin-top: 15px;
+}
+.nineth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.nineth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nineth2{
+    margin-left: 122px;
+    margin-top: 15px;
+}
+.tenth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.tenth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.tenth2{
+    margin-left: 142px;
+    margin-top: 15px;
+}
+.eleventh{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.eleventh1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.eleventh2{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.twelveth{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.twelveth1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.twelveth2{
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.thirteen{
+margin-left: 195px;
+background-color: rgb(225, 219, 219);
+}
+.fourteen{
+    margin-left: 195px;
+    background-color: rgb(225, 219, 219);
+}
+.fifteen{
+    margin-left: 195px;
+    background-color: rgb(225, 219, 219);
+}
+.sixteen{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 219);
+}
+.sixteen1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.sixteen2{
+    margin-left: 112px;
+    margin-top: 15px;
+}
+.seventeen1{
+    background-color:rgb(225, 219, 219) ;
+}
+ div button{
+    background-color: rgb(26, 234, 26);
+    color: white;
+    height: 36px;
+    width: 100px;
+    margin-left: 15px;
+    border: 2px solid rgb(26, 234, 26);
+    border-radius: 5%;
+}
+.last{
+    position: relative;
+}
+.last1{
+    position: absolute;
+    bottom: 80px;
+    background-color: rgb(225, 219, 219);
+    height: 56px;
+    width: 195px;
+}
