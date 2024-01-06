@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+</head>
+<style>
+    button{
+        background-color: rgb(58, 58, 220);
+        color: white;
+        height: 29px;
+        width: 85px;
+        margin-top: 10px;
+        margin-left: 730px;
+    }
+    div{
+        font-size: 20px;
+    }
+    .one{
+        margin-left: 21px;
+    }
+    .last{
+        background-color: rgb(58, 58, 220);
+        width: 290px;
+        margin-left: 630px;
+        margin-top: px;
+    }
+</style>
+<body>
+    <div align="center">From:<input type="date" id="date1"></div>
+    <div align="center" class="one">To:<input type="date" id="date2"></div>
+    <button onclick="calcdiff()" >calculate</button>
+    <div class="last" id="output4"></div>
+    <div id="output" class="last"></div>
+    <div id="output1" class="last"></div>
+    <div id="output2" class="last"></div>
+    <div id="output3" class="last"></div>
+    <script>
+        function calcdiff() {
+            var date1= document.getElementById("date1").value
+            var date2= document.getElementById("date2").value
+
+            const dateone = new Date(date1)
+            const datetwo = new Date(date2)
+            const time = Math.abs(datetwo-dateone)
+            const days = Math.ceil(time/(1000*60*60*24))
+            const months = Math.ceil(days / 31);
+            const years = Math.ceil(months / 12);
+            const weeks = Math.ceil(days/7);
+            document.getElementById("output4").innerHTML = "Date interval between"+"<br>"+date1+"And"+date2
+            document.getElementById("output2").innerHTML ="in days:"+days+"<br>"
+            document.getElementById("output1").innerHTML = "in months:"+months+"<br>"
+            document.getElementById("output").innerHTML ="in years:"+ years+"<br>"
+            document.getElementById("output3").innerHTML ="in weeks:"+ weeks
+        }
+   
+    </script>
+</body>
+</html>
