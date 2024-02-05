@@ -11,13 +11,10 @@ function addtask() {
         listContainer.appendChild(li)
     }
     inputBox.value =''
-    savedata()
 }
-function savedata() {
-    localStorage.setItem("data",listContainer.innerHTML)
+function a() {
+    document.getElementsByClassName("first").innerHTML=
+    inputBox.value + document.cookie
 }
-function showtask() {
-    listContainer.innerHTML=localStorage.getItem("data")
-}
-showtask()
+
 
