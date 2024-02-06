@@ -1,6 +1,6 @@
 const inputBox = document.getElementById("inputbox")
 const listContainer = document.getElementById("listcontainer")
-document.getElementById("btn").addEventListener("click",addtask)
+document.getElementById("btn").addEventListener("click",addtask,a)
 
 function addtask() {
     if (inputBox.value ==='') {
